@@ -5,23 +5,17 @@ using namespace std;
 
 int main()
 {
-	double P=3.14, A, R;
-	cout<<"Vvod gradusnoj mery (0<A<P*2)"<<endl;
-	cin>>A;
-	if (A<=0)
-{
-    cout<<"Neverno";
+   double a, y;
+    cout<<"Vvedite znachenie (0 < α < 2*π) =";
+    cin>>a;
 
-}
-    else if (A>=P*2)
-{
-    cout<<"Neverno";
+    if ((a<0) || (a>6.283185)){ 
+        cout<<"Neverno"<<endl;
+    }
 
-}
-    else if (A>0)
-{
-    A=(R*180)/3.14;
-    cout<<"Znachenie ugla v gradusah="<<A;
-
-}
+    else 
+    y=(a*180)/3.14;
+    cout<<"Znachenie v radianah= "<< y;
+    
+    
 }
