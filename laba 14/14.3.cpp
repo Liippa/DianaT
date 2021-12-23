@@ -14,10 +14,10 @@ setlocale(LC_ALL, "Russian");
 	}
 	else
 	
-	while (S <= N)
+	while (S<N)
 	{
-		++K;
-		S += K;
+		K+=1;
+		S+=K;
 	}
 	cout<<"Наименьшее="<<K<<endl<<"Сумма="<<S<<endl;
 }
