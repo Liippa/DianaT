@@ -19,5 +19,5 @@ setlocale(LC_ALL, "Russian");
 		K+=1;
 		S+=K;
 	}
-	cout<<"Наименьшее="<<K<<endl<<"Сумма="<<S<<endl;
+	cout<<"К="<<K<<endl<<"Сумма="<<S<<endl;
 }
